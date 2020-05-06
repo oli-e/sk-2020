@@ -27,9 +27,6 @@ Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
 | Maska podsieci                |
 | Adres Bramy                   |
 | Serwer DNS                    |
-| |
-| |
-| |
 
 ## Przydatne polecenia
 
