@@ -25,8 +25,8 @@ Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
 | -------------                 |
 | Adres IP                      |
 | Maska podsieci                |
-| |
-| |
+| Adres Bramy                   |
+| Serwer DNS                    |
 | |
 | |
 | |
@@ -35,8 +35,8 @@ Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
 
 | zachowanie                    | polecenia               | komentarz                |
 | -------------                 |:-------------:            | -----:                    |
-| porzucanie dzierżawy adresu v1|  |          |
-| porzucanie dzierżawy adresu v2|  |          |
+| porzucanie dzierżawy adresu v1| ipconfig/release  | Zostaną utracone bieżace ustawienia adresu IP         |
+| porzucanie dzierżawy adresu v2| ipconfig/renew | Serwer DHCP przypisze komputerowi adres IP         |
 
 
 ## Materiały
