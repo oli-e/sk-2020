@@ -19,11 +19,11 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 10.0.15.4 | |
+| IP - address  | 10.0.15.4 | server.py uruchomiony |
 | MASKA  | /24 (255.255.255.0) | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | 10.0.15.6 | |
+| IP - address  | 10.0.15.6 | client.py uruchomiony |
 | MASKA  | /24 (255.255.255.0 )| |
 
 Weryfikacja połączenia
@@ -100,10 +100,10 @@ Dlaczego? Jak? Co? :)
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów | | |
-| Które interfejsy jakie porty słuchają | | |
+| Lokalizacja pliku z konfiguracją sieci| ``/etc/sysconfig/network-scripts`` | |
+| UP -> Wyłączenie interfejsu sieciowego| ``ifconfig down`` | |
+| DOWN -> Włączenie interfejsu sieciowego| ``ifconfig up [interface]`` | |
+| Sprawdzenie obecnych parametrów | ``ifconfig -s [interface]`` | |
+| lista wszystkich interfejsów | ``ifconfig -a [interface]`` | |
+| Które interfejsy jakie porty słuchają | ``[interface]`` | |
 
