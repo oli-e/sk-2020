@@ -21,12 +21,16 @@
 
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
-|               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
-|               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|   ``link``    |                               |  |
-|   ``route``   |  | |
-|   ``maddr``   |  | |
+|   ``addr``    |                            | informacje o adresacji i własnościach interfejsów |
+|               |   ``ip addr``                 | informacja o wszystkich adresach             |
+|               |   ``ip addr show dev enp0s3`` | informacja o konkretnym adresie              |
+|   ``link``    |   | zarządza i wyświetla stan wszytskich inferfejsów  |
+|       |  ``ip link`` | wyświetla informacje o interfejsach  |
+|       |  ``ip link show dev em1`` | wyświetla informacje tylko dotyczące urządzenia em1  |
+|       |  ``ip link set em1 up/down`` | em1 jest online/offline  |
+|   ``route``   |  | wyświetla i modyfikuje tablicę trasowania |
+| | ``ip route``  | wylicza wszystkie dostępne w jądrze systemu operacyjnego |
+|   ``maddr``   |  | zarządza i wyświetla multikastowe ip adresy |
 |   ``neigh``   |  | |
 |   ``help``    |  | |
 
