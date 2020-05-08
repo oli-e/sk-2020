@@ -30,12 +30,12 @@ Weryfikacja połączenia
 
 Polecenie
 ```
-ping 10.0.15.6
+ping 10.0.15.4
 ```
 
 Efekt
 ```
-
+Reply from 10.0.15.4: bytes=32 time=37ms TTL=58
 ```
 
 Statyczna konfiguracja parametrów połączenia
@@ -58,10 +58,14 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+ping 192.168.10.10
+ping 192.168.10.11
 ```
 
 Efekt
 ```
+Reply from 192.168.10.10: bytes=32 time=31ms TTL=58
+Reply from 192.168.10.11: bytes=32 time=17ms TTL=58
 ```
 
 Nowa statyczna konfiguracja 
