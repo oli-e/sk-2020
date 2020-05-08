@@ -13,7 +13,12 @@
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
-|               |   ``ip route add``             | |
+|               |   ``ip route add``             | dodaj trasę default |
+| | ``ip route add <adress>  via <adress gateway> `` | dodaj trasę przez bramę  |
+|| ``ip route add <adress> <interface>`` | dodaj trasę przez interfejs|
+|| ``ip route delete``| usuń trasę|
+|| ``ip route replace``| zmień trasę|
+|| ``ip route get``| usunąć pobierz trasę dla adresu|
 
 
 ### Zastosowania
