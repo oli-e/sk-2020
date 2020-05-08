@@ -30,6 +30,16 @@
 ## Zadanie do domu
 
 1. Zapoznaj się z pojęciem Maskarady IP ``MASQUERADE``
+
+Network Address Translation (NAT, translacja adresów rodzimych. Znane również jako maskarada IP) To technika przesyłania ruchu sieciowego poprzez router, która wiąże się ze zmianą źródłowych lub docelowych adresów IP, zwykle również numerów portów TCP/UDP pakietów IP podczas ich przepływu. Zmieniane są także sumy kontrolne (zarówno w pakiecie IP, jak i w segmencie TCP/UDP), aby potwierdzić wprowadzone zmiany.
+
+Większość systemów korzystających z NAT ma na celu umożliwienie dostępu wielu hostom w sieci prywatnej do Internetu przy wykorzystaniu pojedynczego publicznego adresu IP. Niemniej NAT może spowodować komplikacje w komunikacji między hostami i może mieć pewien wpływ na osiągi.
+
+Wraz ze wzrostem liczby komputerów w Internecie, zaczęła zbliżać się groźba wyczerpania puli dostępnych adresów internetowych IPv4. Aby temu zaradzić, lokalne sieci komputerowe, korzystające z adresów prywatnych, mogą zostać podłączone do Internetu przez jeden router, mający mniej adresów internetowych niż komputerów w tej sieci. Mimo iż w każdej prywatnej sieci może być zalokowane niemal 17 milionów adresów[1] to ograniczeniem będą używane do NAT porty, których jest 65535.
+
+Router ten, gdy komputery z sieci lokalnej komunikują się ze światem, dynamicznie tłumaczy adresy prywatne na adresy zewnętrzne, umożliwiając użytkowanie Internetu przez większą liczbę komputerów niż posiadana liczba adresów zewnętrznych.
+
+NAT jest często stosowany w sieciach korporacyjnych (w połączeniu z proxy) oraz sieciach osiedlowych.
   
 ## Materiały
 
