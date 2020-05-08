@@ -30,10 +30,12 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+ping 10.0.15.6
 ```
 
 Efekt
 ```
+
 ```
 
 Statyczna konfiguracja parametrów połączenia
