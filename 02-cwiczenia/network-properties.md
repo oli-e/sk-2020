@@ -67,34 +67,6 @@ Reply from 192.168.10.10: bytes=32 time=31ms TTL=58
 Reply from 192.168.10.11: bytes=32 time=17ms TTL=58
 ```
 
-Nowa statyczna konfiguracja 
-
--------------------------
-| Parametr | wartość | komentarz(opcionalny) |
-| ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
-|   |  | |
-| PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
-
-Weryfikacja połączenia
-
-Polecenie
-```
-```
-
-Efekt
-```
-```
-
-
-### Utrwalenie konfiguracji
-
-Dlaczego? Jak? Co? :)
-
 ### Warto wiedzieć
 
 -------------------------
