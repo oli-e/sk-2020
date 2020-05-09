@@ -117,8 +117,8 @@ Mając dany adres hosta i maskę znajdź:
 | ----------- | -----------  |
 | ``ip``    | 172.16.128.64 | 
 | ``maska``   | 255.255.0.0| 
-| ``adres sieci``   | 172.16.128.64 / 16  |
-| ``liczba hostów``   |65 536|
+| ``adres sieci``   | 172.16.0.0  |
+| ``liczba hostów``   |65 535|
 | ``host - min``   | 172.16.0.1 | 
 | ``host - max``   | 172.16.255.254  | 
 | ``broadcast``   | 172.16.255.255 | 
