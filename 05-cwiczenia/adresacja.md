@@ -115,12 +115,12 @@ Mając dany adres hosta i maskę znajdź:
 ##   
 | Parametr |  wartość   | 
 | ----------- | -----------  |
-| ``ip``    | 192.168.1.145| 
-| ``maska``   | | 
-| ``adres sieci``   |  |
+| ``ip``    | | 
+| ``maska``   | 255.255.0.0| 
+| ``adres sieci``   | 172.16.128.64 / 16  |
 | ``liczba hostów``   ||
-| ``host - min``   | | 
-| ``host - max``   |  | 
+| ``host - min``   | 172.16.0.1 | 
+| ``host - max``   | 172.16.255.254  | 
 | ``broadcast``   |  | 
 
 1.
