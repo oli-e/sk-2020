@@ -38,58 +38,6 @@ Efekt
 Reply from 10.0.15.4: bytes=32 time=37ms TTL=58
 ```
 
-Statyczna konfiguracja parametrów połączenia
-Wejściowe parametry sieci
--------------------------
-| Parametr | wartość | komentarz(opcionalny) |
-| ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  | 192.168.10.10 | |
-| MASKA  | 255.255.255.0 | |
-|   |  | |
-| PC 2  |  | |
-| IP - address  | 192.168.10.11 | |
-| MASKA  | 255.255.128.0 | |
-| PC 2  |  | |
-| IP - address  | 172.16.100.100 | |
-| MASKA  | 255.255.0.0 | |
-
-Weryfikacja połączenia
-
-Polecenie
-```
-ping 192.168.10.10
-ping 192.168.10.11
-```
-
-Efekt
-```
-Reply from 192.168.10.10: bytes=32 time=31ms TTL=58
-Reply from 192.168.10.11: bytes=32 time=17ms TTL=58
-```
-
-Nowa statyczna konfiguracja 
-
--------------------------
-| Parametr | wartość | komentarz(opcionalny) |
-| ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
-|   |  | |
-| PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
-
-Weryfikacja połączenia
-
-Polecenie
-```
-```
-
-Efekt
-```
-```
 
 ### Utrwalenie konfiguracji
 
