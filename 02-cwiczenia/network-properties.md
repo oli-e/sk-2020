@@ -100,10 +100,10 @@ Dlaczego? Jak? Co? :)
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| ``/etc/sysconfig/network-scripts`` | |
-| UP -> Wyłączenie interfejsu sieciowego| ``ifconfig down`` | |
-| DOWN -> Włączenie interfejsu sieciowego| ``ifconfig up [interface]`` | |
-| Sprawdzenie obecnych parametrów | ``ifconfig -s [interface]`` | |
-| lista wszystkich interfejsów | ``ifconfig -a [interface]`` | |
-| Które interfejsy jakie porty słuchają | ``[interface]`` | |
+| Lokalizacja pliku z konfiguracją sieci: | ``/etc/sysconfig/network-scripts`` | |
+| Wyłączenie interfejsu sieciowego: | ``ifconfig down`` | |
+| Włączenie interfejsu sieciowego: | ``ifconfig up [interface]`` | |
+| Sprawdzenie obecnych parametrów: | ``ifconfig -s [interface]`` | |
+| lista wszystkich interfejsów: | ``ifconfig -a [interface]`` | |
+| Które interfejsy jakie porty słuchają: | ``[interface]`` | |
 
