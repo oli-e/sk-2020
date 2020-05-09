@@ -115,13 +115,13 @@ Mając dany adres hosta i maskę znajdź:
 ##   
 | Parametr |  wartość   | 
 | ----------- | -----------  |
-| ``ip``    | | 
+| ``ip``    | 172.16.128.64 | 
 | ``maska``   | 255.255.0.0| 
 | ``adres sieci``   | 172.16.128.64 / 16  |
-| ``liczba hostów``   ||
+| ``liczba hostów``   |65 536|
 | ``host - min``   | 172.16.0.1 | 
 | ``host - max``   | 172.16.255.254  | 
-| ``broadcast``   |  | 
+| ``broadcast``   | 172.16.255.255 | 
 
 1.
   * Podziel sieć ```192.168.1.0/16``` na 16 równych podsieci
