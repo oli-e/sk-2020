@@ -31,7 +31,7 @@
 |   ``route``   |  | wyświetla i modyfikuje tablicę trasowania |
 | | ``ip route``  | wylicza wszystkie dostępne w jądrze systemu operacyjnego |
 |   ``maddr``   |  | zarządza i wyświetla multikastowe ip adresy |
-|   ``neigh``   |  | |
-|   ``help``    |  | |
+|   ``neigh``   |  | służy do dodawania nowego wpisu w tablicy sąsiedztwa |
+|   ``help``    |  | wyświetla info dla subkomend |
 
 
