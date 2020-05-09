@@ -9,15 +9,15 @@
 ### Jak policzyć?
 #### Adres sieci
 
-1. 
-2.
-3.
+1. Zamieniamy adres IP na postać binarną oraz maskę na również postać binarną
+2. Stosujemy AND 
+3. Zamieniamy na liczby dziesiętne 
 
 #### Adres rozgłoszeniowy
 
-1. 
-2.
-3.
+1. Na adresie maski wykonujemy operacje NOT
+2. Zamieniamy otrzymane coś na liczbę dziesiętną
+3. Dodajemy do adresu sieci i bum. Jest!
 
 
 ## Podział na równą ilość podsieci
