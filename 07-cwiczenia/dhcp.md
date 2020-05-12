@@ -17,6 +17,7 @@
    * Z wykorzystaniem ``virtualbox`` przygotuj podobną konfigurację gdzie w jednej sieci pracuje komputer pełniący rolę serwera DHCP oraz komputer klienta
    * Skonfiguruj serwer DHCP aby przypisywał konfigurację IP zgodnie z obraną adresacją
    * Zweryfikuj poprawność przypisywanych parametrów na pozostałych komputerach pracujacych w sieci 
+   ![zrobione](model1.svg)
 
 ## Parametry konfiguracji DHCP
 Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
