@@ -31,6 +31,8 @@
 
 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać? :)
 
+  nigdy nie wiadomo jakim zagadnieniem rzuci w Ciebie pracodawca, trzeba być jack of all trades!
+
 
 ### Charakterystyka systemu operacyjnego
 
