@@ -70,4 +70,12 @@ Reply from 192.168.10.11: bytes=32 time=17ms TTL=58
 ### Warto wiedzieć
 
 
-
+-------------------------
+| Parametr | wartość | komentarz(opcionalny) |
+| ------------- |:-------------:| -----:|
+| Lokalizacja pliku z konfiguracją sieci: | ``/etc/sysconfig/network-scripts`` | |
+| Wyłączenie interfejsu sieciowego: | ``ifconfig down`` | |
+| Włączenie interfejsu sieciowego: | ``ifconfig up [interface]`` | |
+| Sprawdzenie obecnych parametrów: | ``ifconfig -s [interface]`` | |
+| lista wszystkich interfejsów: | ``ifconfig -a [interface]`` | |
+| Które interfejsy jakie porty słuchają: | ``[interface]`` | |
