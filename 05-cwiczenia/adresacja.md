@@ -191,6 +191,13 @@ Mając dany adres hosta i maskę znajdź:
     * D – 500 użytkowników
     * E – 2 użytkowników.
     
+  ##
+* 10.0.0.0/15 - podsieć A
+* 10.0.0.0/18 - podsieć B
+* 10.0.0.0/20 - podsieć C
+* 10.0.0.0/23 - podsieć D
+* 10.0.0.0/30 - podsieć E    
+    
 ## Wizualizacja
 
 ![krakow siec akademicka](cracow-core.jpeg)
