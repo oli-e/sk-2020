@@ -42,7 +42,7 @@
 |   ``nslookup``    | ``nslookup uek.krakow.pl`` | kwerenda do serwera dns |
 |   ``nslookup``    | ``nslookup uek.krakow.pl 8.8.8.8`` | kwerenda do konkretnego serwera dns |
 |   ``dig``         | ``dig uek.krakow.pl``      | kwerenda do serwera dns |
-|                   |                            | wyczyść lokalny cache dns |   
+|      ``flushdns``             |                            | wyczyść lokalny cache dns |   
 
 ## extra
 
