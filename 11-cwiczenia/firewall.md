@@ -91,7 +91,7 @@ iptables -A -i <interface> -p <protocol (tcp/udp) -s <source> --dport <port> -j 
    * sprawdź konfigurację wykonując testowe polączenie na wskazanych wyżej portach
    * zweryfikuj brak możliwości ustanowienia połączenia na porcie 22 (SSH)
   
-## Przypadki urzycia
+## Przypadki użycia :) 
 
 | Przypadek | komenda | Komentarz |
 | - | - | - |
