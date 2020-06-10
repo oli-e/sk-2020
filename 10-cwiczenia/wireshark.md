@@ -33,6 +33,10 @@
    * Wykonaj analizę i zanotuj spostrzerzenia
      * tcp echo server vs udp echo server
 
+
+
+
+
 ### HTTP vs HTTPS
 2. 
    * Zainstaluj serwer ``HTTP`` program nginx
