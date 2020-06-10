@@ -34,7 +34,7 @@
      * tcp echo server vs udp echo server
 
 
-![10-cwiczenia](tcpvudp.svg)
+![10-cwiczenia](tcpvsvg.svg)
 
 
 ### HTTP vs HTTPS
