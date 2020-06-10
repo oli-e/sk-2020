@@ -5,8 +5,8 @@ Dysponująć siecią o adresie ``172.16.0.0/16`` dokonaj podziału na 6 równe 
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 | Adres sieci do podziału | 172.16.0.0 |  
-| Maska sieci  | 16 | |
-| Maska binarnie  | 255.255.0.0 | |
+| Maska sieci  | 255.255.0.0 | |
+| Maska binarnie  | 11111111 11111111 00000000 00000000 | |
 
 
 2^n >= 6
