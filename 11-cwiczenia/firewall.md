@@ -26,20 +26,20 @@
 
 | łańcuch    |  przeznaczenie   | 
 | ------------- |:-------------| 
-|   ``INPUT``    |                               |
-|   ``OUTPUT``    |                              |
-|   ``FORWARD``    |                             |
-|   ``PREROUTING``    |                          |
-|   ``POSTROUTING``    |                         |
+|   ``INPUT``    | Applies to network packets that are targeted for the host.                              |
+|   ``OUTPUT``    | Applies to locally-generated network packets.                             |
+|   ``FORWARD``    | Applies to network packets routed through the host.                           |
+|   ``PREROUTING``    | Applies to network packets when they arrive.                         |
+|   ``POSTROUTING``    | Applies to network packets before they are sent out.                        |
 
 ### co zrobić / target (-j)
 
 |     |  przeznaczenie   | 
 | ------------- |:-------------| 
-|   ``ACCEPT``    |                               |
-|   ``DROP``    |                              |
-|   ``REJECT``    |                             |
-|   ``LOG``    |                             |
+|   ``ACCEPT``    | let the packet through                         |
+|   ``DROP``    | drop the packet on the floor                             |
+|   ``REJECT``    | pass the packet to userspace                            |
+|   ``LOG``    | turn on kernel logging of matching packets                            |
 
 
 ### Użycie
