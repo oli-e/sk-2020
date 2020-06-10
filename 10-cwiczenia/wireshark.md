@@ -44,4 +44,14 @@
    * Skonfiguruj możliwość połączenia z wykorzystaniem nowo utworzonych certyfikatów
    * Porównaj komunikacją na różnych warstwach OSI w zależności od wykorzystanego protokołu HTTP vs HTTPS
    
+   
+   Unlike HTTP, where requests and responses are sent and returned in plaintext, HTTPS uses TLS/SSL to encrypt the communication between      the client and the server.
+
+      There are many benefits of using HTTPS over HTTP, such as:
+         *All the data is encrypted in both directions. As a result, sensitive information cannot be read if intercepted.
+         *Google Chrome and all other popular browsers will mark such website as safe.
+         *HTTPS allows you to use the HTTP/2 protocol, which significantly improves the site performance.
+         *Google favors HTTPS websites. Such site will rank better if served via HTTPS.
+
+       The preferred method to redirect HTTP to HTTPS in Nginx is to configure a separate server block for each version of the site. 
       
