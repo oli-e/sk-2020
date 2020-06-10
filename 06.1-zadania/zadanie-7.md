@@ -12,9 +12,9 @@ Dysponująć siecią o adresie ``192.168.100.0/24`` dokonaj podziału podsieci 
 
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Adres sieci do podziału |  
-| Maska sieci  |  | |
-| Maska binarnie  |  | |
+| Adres sieci do podziału |192.168.100.0 |  
+| Maska sieci  | 255.255.255.0 | |
+| Maska binarnie  | 11111111 11111111 11111111 00000000 | |
 
 
 2^(32 - dlugość maski) - 2 >= wymagana ilosć hostów
