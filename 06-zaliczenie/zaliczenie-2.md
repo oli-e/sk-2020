@@ -18,6 +18,21 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
   * Usunięty został również link pomiędzy Routerem (LAN 1) a Routerem (LAN 2)
   * Uwzględnij zmiany w tablicy routingów
 
+Sieć pierwotna: 
+
+LAN 1: 78.10.0.0/22
+
+LAN 2: 78.10.4.0/22, nowy subnet mask: 255.255.255.0 (24)
+ Podsieć 1: 78.10.4.0, Ranga hostów od: 78.10.4.1 do 78.10.4.254, Broadcast: 78.10.4.255, rozmiar subnetu 254
+ Podsieć 2: 78.10.5.0, Ranga hostów od: 78.10.5.1 do 78.10.5.254, Broadcast: 78.10.5.255, rozmiar subnetu 254
+ Podsieć 3: 78.10.6.0, Ranga hostów od: 78.10.6.1 do 78.10.6.254, Broadcast: 78.10.6.255, rozmiar subnetu 254
+
+LAN 3: 78.10.8.0/22, nowy subnet mask: 
+ Podsieć 1: 78.10.8.0, Ranga hostów od 78.10.8.1 do 78.10.11.254, Broadcast: 78.10.11.255, rozmiar subnetu 514
+ Podsieć 2: 
+ Podsieć 3: 
+
+
 ## Zawartość
 
  * Adresy poszczególnych sieci IP
