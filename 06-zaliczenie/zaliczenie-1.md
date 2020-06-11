@@ -17,6 +17,7 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
 | ------------- |:-------------:|
 | Adres sieci do podziału | ``IP: 78.10.0.0`` | 
 | Maska sieci  | ``255.255.252.0`` | 
+
 3 podsieci:
   
  * ``78.10.0.0/22``
