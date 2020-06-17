@@ -95,9 +95,9 @@ iptables -A -i <interface> -p <protocol (tcp/udp) -s <source> --dport <port> -j 
 
 | Przypadek | komenda | Komentarz |
 | - | - | - |
-| Blokowanie dostępu INPUT | | |
+| Blokowanie dostępu INPUT | ``iptables -I INPUT -s ip -j DROP`` | |
 | Zezwolenie na dostęp konkretny port | | |
 | Zezwolenie na dostęp konkretny port + konkretny adres| | |
 | Przekierowanie portu | | |
-| Reset ustawień firewall | | |
+| Reset ustawień firewall | ``iptables -F`` | |
 | Zapis ustwień firewall | | |
