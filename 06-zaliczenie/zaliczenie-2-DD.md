@@ -54,4 +54,4 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
 
     *  Router3: ``96.10.8.0/24 via 96.10.100.1``
     * ``       96.10.10.16/28 via 96.10.100.1``
-    * ``       96.10.10.64/26 via 96.10.100.1`96
+    * ``       96.10.10.64/26 via 96.10.100.1``
