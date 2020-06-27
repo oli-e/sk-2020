@@ -42,11 +42,11 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
     * Router2 (78.10.100.1) via Gig9 to Router3 (78.10.103.254) via Gig9
 
  * Tablice routingów na poszczególnych routerach
-    * ``Router1: 78.10.8.0/22 via 78.10.99.254``
+    * `` Router1: 78.10.8.0/22 via 78.10.99.254``
     * ``        78.10.10.16/28 via 78.10.99.254``
     * ``        78.10.10.64/26 via 78.10.99.254``
               
-    * ``Router2: 78.10.0.0/22 via 78.10.96.1
+    * `` Router2: 78.10.0.0/22 via 78.10.96.1
     * ``         78.10.4.0/24 via 78.10.103.254``
     * ``        78.10.5.0/24 via 78.10.103.254``
     * ``        78.10.6.0/24 via 78.10.103.254``
