@@ -28,14 +28,14 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
    * LAN 1: 78.10.0.0/22
 
    * LAN 2: 78.10.4.0/22, nowy subnet mask: 255.255.255.0 (24)
-     *``Podsieć 1: 78.10.4.0, Ranga hostów od: 78.10.4.1 do 78.10.4.254, Broadcast: 78.10.4.255, rozmiar subnetu 254.``
-     *``Podsieć 2: 78.10.5.0, Ranga hostów od: 78.10.5.1 do 78.10.5.254, Broadcast: 78.10.5.255, rozmiar subnetu 254.``
-     *``Podsieć 3: 78.10.6.0, Ranga hostów od: 78.10.6.1 do 78.10.6.254, Broadcast: 78.10.6.255, rozmiar subnetu 254.``
+    * ``Podsieć 1: 78.10.4.0, Ranga hostów od: 78.10.4.1 do 78.10.4.254, Broadcast: 78.10.4.255, rozmiar subnetu 254.``
+    * ``Podsieć 2: 78.10.5.0, Ranga hostów od: 78.10.5.1 do 78.10.5.254, Broadcast: 78.10.5.255, rozmiar subnetu 254.``
+    * ``Podsieć 3: 78.10.6.0, Ranga hostów od: 78.10.6.1 do 78.10.6.254, Broadcast: 78.10.6.255, rozmiar subnetu 254.``
 
    * LAN 3: 78.10.8.0/22, 
-     *``Podsieć 1: 78.10.8.0, Ranga hostów od: 78.10.8.1 do 78.10.10.3, Broadcast: 78.10.10.4, subnet 512 hostów, maska 24.``
-     *``Podsieć 2: 78.10.10.16, Ranga hostów od: 78.10.10.17 do 78.10.10.26, Broadcast: 78.10.10.26, subnet 10 hostów, maska 28.``
-     *``Podsieć 3: 78.10.10.64, Ranga hostów od: 78.10.10.65 do 78.10.10.96, Broadcast: 78.10.10.97, subnet 32 hosty, maska 26.``
+    * ``Podsieć 1: 78.10.8.0, Ranga hostów od: 78.10.8.1 do 78.10.10.3, Broadcast: 78.10.10.4, subnet 512 hostów, maska 24.``
+    * ``Podsieć 2: 78.10.10.16, Ranga hostów od: 78.10.10.17 do 78.10.10.26, Broadcast: 78.10.10.26, subnet 10 hostów, maska 28.``
+    * ``Podsieć 3: 78.10.10.64, Ranga hostów od: 78.10.10.65 do 78.10.10.96, Broadcast: 78.10.10.97, subnet 32 hosty, maska 26.``
 
  * Adresację linków pomiędzy routerami
     * Router1 (78.10.96.1) via Gig8 to Router2 (78.10.99.254) via Gig8
