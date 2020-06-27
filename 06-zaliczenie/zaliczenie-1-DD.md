@@ -15,7 +15,7 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
    
   | Parametr | wartość | 
 | ------------- |:-------------:|
-| Adres sieci do podziału | ``IP: 96.10.0.0`` | 
+| Adres sieci do podziału | ``96.10.0.0`` | 
 | Maska sieci  | ``255.255.252.0`` | 
 
 3 podsieci:
