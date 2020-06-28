@@ -23,19 +23,19 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
 
 ## Zawartość dokumentacji
 
- * Charakterystyka rozwiazania 
+ * **Charakterystyka rozwiazania** 
    - Topologia zawiera jak na załączonym schemacie dwa komputery stacjonarne, drukarkę oraz serwer oraz się łączy z siecią prywatną poprzez NAT oraz routery, która zawiera serwer. Celem jest by wszystkie urządzenia w każdej z sieci były w stanie się komunikować pomiędzy sobą oraz dodatkowo w sieci 78.10.100.0/22 większości adresy IP nadaje serwer DHCP znajdujący się pod adresem 78.10.100.2.
    
- * Adresy sieci IP
+ * **Adresy sieci IP**
      - 78.10.100.0/22 
      - 78.10.0.0/22
      - Dla NAT: 5.5.5.0/24
      - 192.168.100.0/24
      
- * Oprogramowanie wykorzystane do realizacji poszczególnych wymagań
+ * **Oprogramowanie wykorzystane do realizacji poszczególnych wymagań**
    - Cisco Packet Tracer
    
- * Kluczowa konfiguracja oprogramowania pozwalająca na odtworzenie stanu po reinstalacji środowiska
+ * **Kluczowa konfiguracja oprogramowania pozwalająca na odtworzenie stanu po reinstalacji środowiska**
     ### Konfiguracja NAT z iptables
      * Połączenie NAT zostało zaprojektowane przy pomocy dwóch routerów w sieci 5.5.5.0 o masce 24(255.255.255.0), w tablicach routingu są dwa wpisy w jednym -   ``192.168.100.0/24 via 5.5.5.5`` i - ``78.10.0.0/16 via 5.5.5.6``
 
