@@ -24,7 +24,7 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
 ## Zawartość dokumentacji
 
  * **Charakterystyka rozwiazania** 
-   - Topologia zawiera jak na załączonym schemacie dwa komputery stacjonarne, drukarkę oraz serwer oraz się łączy z siecią prywatną poprzez NAT oraz routery, która zawiera serwer. Celem jest by wszystkie urządzenia w każdej z sieci były w stanie się komunikować pomiędzy sobą oraz dodatkowo w sieci 78.10.100.0/22 większości adresy IP nadaje serwer DHCP znajdujący się pod adresem 78.10.100.2.
+   - Topologia zawiera jak na załączonym schemacie dwa PC, drukarkę oraz serwer łączący się z siecią prywatną poprzez NAT oraz routery, która zawiera serwer. Celem jest by wszystkie urządzenia w każdej z sieci były w stanie się komunikować pomiędzy sobą oraz dodatkowo w sieci 78.10.100.0/22 większości adresy IP nadaje serwer DHCP znajdujący się pod adresem 78.10.100.2
    
  * **Adresy sieci IP**
      - 78.10.100.0/22 
