@@ -1,4 +1,4 @@
-# Zadanie 1 :smile:
+# Zadanie 1
 
 Organizacja planuje ulepszyć działanie istniejącej sieci biurowej.
 
