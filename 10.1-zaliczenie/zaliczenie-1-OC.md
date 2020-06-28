@@ -43,9 +43,9 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
      * na interfejsie ``FastEthernet0`` utworzono Pool ``serverPool`` z defaultowym gateway’em ``78.10.100.1`` oraz serwerem DNS ``78.10.100.5``. Jako IP startowe przydzielono ``78.10.100.0`` z maską ``255.255.252.0``. Maksymalną liczbę użytkowników ustalono na 600.
 
     ### Konfiguracja DNS
-     * drukarka.mojaorganizacja.pl ->  ``78.10.100.5``
-     * erp.mojaorganizacja.pl ->  ``78.10.100.10``
-     * router.mojaorganizacja.pl ->  ``78.10.100.1``
+     * **drukarka.mojaorganizacja.pl** ->  ``78.10.100.5``
+     * **erp.mojaorganizacja.pl** ->  ``78.10.100.10``
+     * **router.mojaorganizacja.pl** ->  ``78.10.100.1``
 
  
     ### Konfiguracja interfejsów sieciowych
